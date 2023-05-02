@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background: rgba(34, 220, 220, 0.804); */
+    font-family: 'Poppins',sans-serif;
+}
+
+.Home{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch start;
+}
+
+.navbar {
+    overflow: auto;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar .Newsletter{
+    float: right;
+  } 
+  .dropdown {
+    float:left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.Himage{
+    /*background-image: url(TourismBG.jpg);*/
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.Himage img{
+    height: 85vh;
+    width: 95%;
+    background: linear-gradient(rgba(0,0,45,0.6),rgba(0,0,50,0.8));
+    margin-bottom: 20px;
+}
+
+.Himage .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Himage .centered p{
+    font-weight: 700;
+    font-size: 3em;
+    color: rgb(129, 129, 129);
+}
+
+.Hcontent{
+    position: relative;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+}
+
+.Hcontent p{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 20px 20px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.TouristDestinations{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.TouristDestinations h1{
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.Title h2{
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.TouristDestinations .Destination {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch start;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+
+.Destination img{
+    height: 57vh;
+    /* width: 50%; */
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.Destination p{
+    width: 50%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 20px 20px;
+    line-height: 1.8;
+    margin-left: 20px;
+    background-color: rgb(193, 192, 192);
+    border-radius: 20px;
+}
+
+.Destination span{
+    color: blue;
+}
+
